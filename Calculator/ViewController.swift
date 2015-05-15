@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var display: UILabel!
 
     var userIsInTheMiddle: Bool = false
-    
+    // This funcion adds number to right
     @IBAction func appendDigit(sender: UIButton) {
         let digit = sender.currentTitle!
         if (userIsInTheMiddle){
